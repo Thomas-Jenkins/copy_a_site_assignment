@@ -1,0 +1,73 @@
+body {
+    height: 100%;
+    max-width: 98%;
+}
+.box {
+    margin: 5px;
+    padding: 0;
+    border: 2px Solid Black;
+    height: auto;
+    width: auto;
+}
+.gridContainter {
+    margin: 0 auto;
+    height: 1000px;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.navOne {
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.logoImg {
+    display: grid;
+    grid-template-columns: 100%;
+}
+.navSide {
+    display: grid;
+    
+}
+.signIn {
+    display: grid;
+    grid-template-rows: 100%;
+}
+.navTwo {
+    display: grid;
+}
+.welcomeTo {
+    display: grid;
+}
+.articles {
+    display: grid;
+}
+.randomArticle {
+    display: grid;
+}
+.news {
+    display: grid;
+}
+.didYouKNow {
+    display: grid;
+}
+.onThisDay {
+    display: grid;
+}
+.imageOfTheDay {
+    display: grid;
+}
+.randomImg {
+    display: grid;
+}
+.imgDescription {
+    display: grid;
+}
+.relatedLinks {
+    display: grid;
+}
+.languages {
+    display: grid;
+}
+.footer {
+    display: grid;
+}
