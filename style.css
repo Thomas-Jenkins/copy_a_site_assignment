@@ -11,63 +11,73 @@ body {
 }
 .gridContainter {
     margin: 0 auto;
-    height: 1000px;
+    height: 1500px;
     width: 95%;
     display: grid;
     grid-template-columns: 20% 80%;
 }
-.navOne {
-    display: grid;
-    grid-template-rows: 20% 80%;
-}
-.logoImg {
-    display: grid;
-    grid-template-columns: 100%;
-}
-.navSide {
-    display: grid;
-    
-}
-.signIn {
-    display: grid;
-    grid-template-rows: 100%;
-}
-.navTwo {
-    display: grid;
-}
-.welcomeTo {
-    display: grid;
-}
-.articles {
-    display: grid;
-}
-.randomArticle {
-    display: grid;
-}
-.news {
-    display: grid;
-}
-.didYouKNow {
-    display: grid;
-}
-.onThisDay {
-    display: grid;
-}
-.imageOfTheDay {
-    display: grid;
-}
-.randomImg {
-    display: grid;
-}
-.imgDescription {
-    display: grid;
-}
-.relatedLinks {
-    display: grid;
-}
-.languages {
-    display: grid;
-}
-.footer {
-    display: grid;
-}
+    .navOne {
+        display: grid;
+        grid-template-rows: 20% 80%;
+        }
+        .logoImg {
+            display: grid;
+            grid-template-columns: 100%;
+        }
+        .navSide {
+            display: grid;
+        
+        }
+    .main {
+        display: grid;
+        grid-template-rows: 3.5% 3.5% 10% 30% 25% 15% 1fr 1fr 1fr;
+    }
+    .signIn {
+        display: flex;
+        justify-content: right;
+    }
+    .navTwo {
+        display: flex;
+        grid-template-rows: 100%;
+    }
+    .welcomeTo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .articles {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+        .randomArticle {
+            display: grid;
+        }
+        .news {
+            display: grid;
+        }
+        .didYouKNow {
+            display: grid;
+        }
+        .onThisDay {
+            display: grid;
+        }
+    .imageOfTheDay {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+        .randomImg {
+            display: grid;
+        }
+        .imgDescription {
+            display: grid;
+        }
+    .relatedLinks {
+        display: grid;
+    }
+    .languages {
+        display: grid;
+    }
+    .footer {
+        display: grid;
+    }
