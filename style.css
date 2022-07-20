@@ -1,0 +1,88 @@
+body {
+    height: 100%;
+    max-width: 98%;
+}
+.box {
+    margin: 5px;
+    padding: 0;
+    border: 2px Solid Black;
+    height: auto;
+    width: auto;
+}
+.gridContainter {
+    margin: 0 auto;
+    height: 1500px;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+    .navOne {
+        display: grid;
+        grid-template-rows: 20% 80%;
+        }
+        .logoImg {
+            display: grid;
+            grid-template-columns: 100%;
+        }
+        .navSide {
+            
+        
+        }
+    .main {
+        display: grid;
+        grid-template-rows: 3.5% 3.5% 10% 30% 25% 15% 1fr 1fr 1fr;
+    }
+    .signIn {
+        display: flex;
+        justify-content: right;
+    }
+    .navTwo {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .navTwo div {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .welcomeTo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .articles {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+        .randomArticle {
+            display: grid;
+        }
+        .news {
+            display: grid;
+        }
+        .didYouKNow {
+            display: grid;
+        }
+        .onThisDay {
+            display: grid;
+        }
+    .imageOfTheDay {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+        .randomImg {
+            display: grid;
+        }
+        .imgDescription {
+            display: grid;
+        }
+    .relatedLinks {
+        display: grid;
+    }
+    .languages {
+        display: grid;
+    }
+    .footer {
+        display: grid;
+    }
